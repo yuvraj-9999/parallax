@@ -10,14 +10,8 @@ def test_settings_accept_valid_configuration() -> None:
         openrouter_model="nvidia/nemotron-3-ultra-550b-a55b:free",
     )
 
-    assert (
-        settings.openrouter_model
-        == "nvidia/nemotron-3-ultra-550b-a55b:free"
-    )
-    assert (
-        settings.openrouter_base_url
-        == "https://openrouter.ai/api/v1"
-    )
+    assert settings.openrouter_model == "nvidia/nemotron-3-ultra-550b-a55b:free"
+    assert settings.openrouter_base_url == "https://openrouter.ai/api/v1"
 
 
 def test_settings_reject_empty_model() -> None:

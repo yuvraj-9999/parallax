@@ -1,5 +1,5 @@
-
 from pydantic import BaseModel, ConfigDict, Field, field_validator
+
 
 class Proposal(BaseModel):
     model_config = ConfigDict(
@@ -50,5 +50,3 @@ class Proposal(BaseModel):
         if any(not item for item in values):
             raise ValueError("List items cannot be blank.")
         return values
-        
-        
