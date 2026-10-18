@@ -7,7 +7,13 @@ authors = [
     { name = "Yuvraj Sabale", email = "yuvrajsabale999@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "langgraph>=1.2.16",
+    "openai>=3.35.1",
+    "pydantic>=2.14.1",
+    "pydantic-settings>=2.16.0",
+    "python-dotenv>=1.2.4",
+]
 
 [project.scripts]
 parallax = "parallax:main"
@@ -15,3 +21,9 @@ parallax = "parallax:main"
 [build-system]
 requires = ["uv_build>=0.12.19,<0.13.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.17.1",
+]

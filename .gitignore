@@ -1,10 +1,24 @@
-# Python-generated files
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environment
+.venv/
+
+# Python cache
 __pycache__/
-*.py[oc]
+*.py[cod]
+*.egg-info/
+
+# Test cache and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ruff cache
+.ruff_cache/
+
+# Build artifacts
 build/
 dist/
-wheels/
-*.egg-info
-
-# Virtual environments
-.venv
