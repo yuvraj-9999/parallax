@@ -202,3 +202,12 @@ Parallax currently provides terminal-based proposal evaluation. It does not incl
 
 Pydantic validation ensures that outputs conform to the expected structure. It does not verify factual accuracy, eliminate model bias, or guarantee that a verdict is correct. Final decisions are model-generated recommendations based on the available information.
 
+## Future Scope
+
+- **Iterative Evaluation:** Refine proposals using agent feedback.
+- **Persistent History:** Store and compare previous evaluations.
+- **Evidence Verification:** Validate claims using external information sources.
+- **Dynamic Workflows:** Enable conditional routing and reassessment.
+- **Evaluation Metrics:** Measure agent agreement and verdict consistency.
+- **Web Interface:** Provide an interactive interface for exploring results.
+
