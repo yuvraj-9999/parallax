@@ -1,6 +1,6 @@
 # Parallax
 
-**Multi-Agent AI System for Structured Proposal Evaluation**
+**Multi-Agent AI System for Idea Analysis through different perspectives**
 
 Parallax is a terminal-based AI application that transforms ideas into structured proposals, evaluates them from multiple perspectives, and synthesizes the findings into a final verdict.
 
