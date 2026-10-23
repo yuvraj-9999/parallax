@@ -2,7 +2,7 @@
 
 **Multi-Agent AI System for Idea Analysis through different perspectives**
 
-Parallax is a terminal-based AI application that transforms ideas into structured proposals, evaluates them from multiple perspectives, and synthesizes the findings into a final verdict.
+Parallax transforms ideas into structured proposals, evaluates them through independent technical and critical assessments, and synthesizes the results into a final verdict.
 
 Built with **Python, LangGraph, and Pydantic**, Parallax coordinates four specialized AI agents through a graph-based workflow. Each agent has a distinct responsibility, enabling the system to move beyond a single model response toward a more structured evaluation process.
 
