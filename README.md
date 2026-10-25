@@ -57,7 +57,7 @@ flowchart TD
 - **Evidence-oriented analysis:** Organizes findings by severity, explanation, supporting evidence, assumptions, and recommendations.
 - **Modular architecture:** Separates agent logic, schemas, model configuration, workflow execution, and terminal presentation.
 - **Readable CLI:** Displays the complete evaluation as a structured terminal report rather than raw JSON.
-- **Free-model configuration:** Integrates with OpenRouter using a configurable model identifier and a free-model setup.
+- **Free-model compatibility:** Supports OpenRouter model identifiers configured for free inference, with model selection managed through environment variables.
 
 ## Technology Stack
 
