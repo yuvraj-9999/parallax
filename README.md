@@ -49,15 +49,17 @@ flowchart TD
     class PROPOSAL,ARCH_RESULT,SKEPTIC_RESULT,RESULT data
 ```
 
+
 ## Key Features
 
-- **Multi-agent orchestration:** Coordinates specialized agents through an explicit LangGraph workflow.
-- **Parallel assessment:** Evaluates proposals from architectural and critical perspectives before synthesizing a verdict.
-- **Structured output validation:** Uses Pydantic schemas to validate proposals, findings, assessments, and verdicts.
-- **Evidence-oriented analysis:** Organizes findings by severity, explanation, supporting evidence, assumptions, and recommendations.
-- **Modular architecture:** Separates agent logic, schemas, model configuration, workflow execution, and terminal presentation.
-- **Readable CLI:** Displays the complete evaluation as a structured terminal report rather than raw JSON.
-- **Free-model compatibility:** Supports OpenRouter model identifiers configured for free inference, with model selection managed through environment variables.
+- **Multi-agent orchestration:** Coordinates four specialized agents through a LangGraph workflow.
+- **Parallel assessment:** Evaluates proposals through independent architectural and critical perspectives.
+- **Schema validation:** Uses Pydantic to enforce expected fields, types, constraints, and permitted values in model-generated outputs.
+- **Evidence-oriented analysis:** Structures findings around severity, explanations, evidence, assumptions, and recommendations.
+- **Modular architecture:** Separates agent implementations, schemas, model configuration, workflow orchestration, and CLI presentation.
+- **Readable CLI:** Presents proposals, assessments, and the final verdict in a structured terminal report.
+- **Free-model compatibility:** Supports configurable OpenRouter model identifiers intended for free inference.
+
 
 ## Technology Stack
 
